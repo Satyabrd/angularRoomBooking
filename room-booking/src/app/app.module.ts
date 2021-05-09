@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RoomrowComponent } from './roomrow/roomrow.component';
+import { HeadbarComponent } from './headbar/headbar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RoomrowComponent,
+    HeadbarComponent
   ],
   imports: [
     BrowserModule,
